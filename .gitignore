@@ -1,0 +1,11 @@
+.DS_Store
+.eslintcache
+.idea
+*.sublime-project
+*.sublime-workspace
+node_modules
+npm-debug.log
+apimock
+
+build/widget/latest.js
+build/widget/wrapper.js

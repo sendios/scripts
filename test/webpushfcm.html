@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  <link rel="manifest" href="manifest.json">
+  <script>
+    (function (w, d, f) {
+      w[f] = function () {(w[f].q = w[f].q || []).push(arguments)};
+      w['_mf_object_name'] = f;
+      var l = document.createElement('script');
+      // l.src = 'https://scripts.sendios.io/build/widget/wrapper.js';
+      l.src = '../widget/wrapper.js';
+      l.type = 'text/javascript';
+      l.async = true;
+      var s = d.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(l, s);
+    })(window, document, 'mf');
+
+    mf.project = 25; // your project ID
+    mf.sw = '//localhost/test/swfcm.js'; // service worker URL
+    mf.msgSenderId = '530470765559'; // required for webpush messages
+    mf('webpushfcm', 'auto');
+    // mf('webpushfcm', 'init');
+    // mf('webpushfcm', 'subscribe');
+    // mf('webpushfcm', 'showPopup');
+  </script>
+</head>
+<body>
+<img src="https://n.sendios.io/online/18" style="display:none">
+content
+</body>
+</html>

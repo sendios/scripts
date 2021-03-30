@@ -1,0 +1,25 @@
+{
+  "parser"  : "babel-eslint",
+  "extends": ["standard"],
+  "env": {
+    "browser" : true
+  },
+  "globals": {
+  	"$": true,
+  	"jQuery": true,
+  	"Zepto": true,
+  	"Porthole": true
+  },
+  "rules": {
+    "semi": [2, "never"],
+    "camelcase": 0,
+    "padded-blocks": 0,
+    "no-multiple-empty-lines": [2, {"max": 2, "maxEOF": 1}],
+    "no-multi-str": 0,
+    "no-sequences": 0,
+    "no-return-assign": 1,
+    "no-trailing-spaces": 0,
+    "operator-linebreak": 0,
+    "space-before-function-paren": [2, {"anonymous": "always", "named": "never"}],
+  }
+}

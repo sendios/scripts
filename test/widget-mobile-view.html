@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Widget Mobile Test</title>
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  <style type="text/css">
+  	body {
+  		padding-bottom: 100px;
+  	}
+    iframe {
+      display: block;
+      border: 1px solid #777;
+      margin: 0 30px 30px 0;
+      float: left;
+    }
+  </style>
+</head>
+<body></body>
+<script type="text/javascript">
+  document.body.innerHTML = `
+  <iframe id="preview4" frameBorder="0" src="widget1.html${location.search}" width="736" height="414"></iframe>
+  <iframe id="preview3" frameBorder="0" src="widget1.html${location.search}" width="414" height="736"></iframe>
+  <iframe id="preview1" frameBorder="0" src="widget1.html${location.search}" width="320" height="480"></iframe>
+  <iframe id="preview2" frameBorder="0" src="widget1.html${location.search}" width="480" height="320"></iframe>
+  <br style="clear: both;"/>
+  `
+</script>
+</html>
