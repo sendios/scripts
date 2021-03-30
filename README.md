@@ -1,9 +1,3 @@
-<p align="center">
-    <a href="https://github.com/sendios" target="_blank">
-        <img src="https://avatars2.githubusercontent.com/u/16989772?s=200&v=4" height="100px">
-    </a>
-</p>
-
 # Sendios scripts
 
   - [Usage](https://github.com/sendios/scripts/tree/version3#usage)
