@@ -1,0 +1,13 @@
+{
+  "parser"  : "babel-eslint",
+  "extends": ["airbnb"],
+  "env": {
+    "browser" : true
+  },
+  "globals": {
+  	"$": true,
+  	"jQuery": true,
+  	"Zepto": true,
+  	"Porthole": true
+  }
+}

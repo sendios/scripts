@@ -1,0 +1,46 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "mf scripts",
+  "main": "webpack.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "NODE_ENV=development  webpack-dev-server",
+    "stage": "NODE_ENV=stage  webpack",
+    "build": "NODE_ENV=production webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sendios/scripts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sendios/scripts/issues"
+  },
+  "homepage": "https://github.com/sendios/scripts#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "4.1.6",
+    "babel-loader": "^6.4.1",
+    "babel-plugin-syntax-class-properties": "^6.13.0",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^5.1.0",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.0",
+    "eslint-plugin-promise": "^3.3.0",
+    "eslint-plugin-react": "^7.10.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "webpack": "^2.2.0",
+    "webpack-dev-server": "^2.2.0"
+  },
+  "dependencies": {
+    "idempotent-babel-polyfill": "^7.0.0"
+  }
+}

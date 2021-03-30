@@ -1,3 +1,16 @@
+.DS_Store
+.eslintcache
 .idea
+*.sublime-project
+*.sublime-workspace
 node_modules
-dist
+npm-debug.log
+apimock
+manife
+st.json
+swfcm.js
+index.html
+manifest.json
+
+build/widget/latest.js
+build/widget/wrapper.js
