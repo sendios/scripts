@@ -224,11 +224,11 @@ export default class WebPushFcm {
       const date = new Date();
       date.setDate(date.getDate() + 365);
 
-      jsonp('https://tracking.sendios.io/users/setcookie');
+      jsonp('https://data.sendios.io/users/setcookie');
 
       const cookieRequest = new XMLHttpRequest();
 
-      cookieRequest.open('POST', 'https://tracking.sendios.io/users/setcookie', true);
+      cookieRequest.open('POST', 'https://data.sendios.io/users/setcookie', true);
 
       const userData = {
         push_user_id: {
